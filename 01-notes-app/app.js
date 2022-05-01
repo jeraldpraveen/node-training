@@ -10,4 +10,5 @@ const isEmail = validator.isEmail("jerald@gmail.com");
 
 console.log(nameOne, nameTwo, sumResult, isEmail);
 
-console.log(chalk.green("Hello Jerald!"));
+console.log(chalk.green.bold("Hello Jerald!"));
+console.log(chalk.green.inverse("Hello Jerald!"));
