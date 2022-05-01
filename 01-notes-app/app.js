@@ -1,5 +1,8 @@
 const nameTwo = require("./utils");
+const sum = require("./utils-one");
 
 const nameOne = "Jerald";
 
-console.log(nameOne, nameTwo);
+const sumResult = sum(4, 2);
+
+console.log(nameOne, nameTwo, sumResult);
