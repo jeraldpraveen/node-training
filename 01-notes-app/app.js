@@ -1,4 +1,5 @@
-const fs = require("fs");
+require("./utils");
 
-fs.writeFileSync("notes.txt", "Created By Jerald Via NodeJS");
-fs.appendFileSync("notes.txt", " Appended Extra Context into the File");
+const nameOne = "Jerald";
+
+console.log(nameOne);
