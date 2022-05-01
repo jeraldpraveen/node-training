@@ -1,5 +1,5 @@
-require("./utils");
+const nameTwo = require("./utils");
 
 const nameOne = "Jerald";
 
-console.log(nameOne);
+console.log(nameOne, nameTwo);
